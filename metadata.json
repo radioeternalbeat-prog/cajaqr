@@ -1,0 +1,6 @@
+{
+  "name": "CajaQR - Bóveda de Enlaces & Códigos QR",
+  "description": "Caja organizadora de enlaces con generación y personalización de códigos QR para acceso directo, impresión y descargas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
