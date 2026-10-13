@@ -1,4 +1,4 @@
-# 🏎️ CajaQR — Bóveda de Enlaces & Códigos QR (McLaren F1 Edition)
+# 🏎️ BOXQr — Bóveda de Enlaces & Códigos QR (McLaren F1 Edition)
 
 > Aplicación web moderna y ultra-rápida para almacenar, organizar y generar códigos QR con acceso directo instantáneo para enlaces web, WhatsApp y redes Wi-Fi.
 

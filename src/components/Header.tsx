@@ -29,7 +29,7 @@ export const Header: React.FC<HeaderProps> = ({
             <QrCode className="w-5 h-5 text-black" />
           </div>
           <span className="text-xl font-black tracking-tight text-white whitespace-nowrap">
-            Caja<span className="text-[#FF8000]">QR</span>
+            BOX<span className="text-[#FF8000]">Qr</span>
           </span>
         </div>
 

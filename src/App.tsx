@@ -207,7 +207,7 @@ export default function App() {
         <section className="flex flex-col md:flex-row md:items-end justify-between gap-4 pb-2 border-b border-[#232936]">
           <div>
             <h1 className="text-2xl sm:text-3xl font-black tracking-tight text-white">
-              Bóveda & Caja de Enlaces QR
+              BOX<span className="text-[#FF8000]">Qr</span> — Bóveda de Enlaces & Códigos QR
             </h1>
             <p className="text-sm text-slate-400 mt-1 max-w-2xl">
               Almacena tus enlaces clave y genera códigos QR optimizados para acceso directo desde teléfonos móviles, carteles, menús y redes.
@@ -299,8 +299,8 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
           <div className="flex items-center gap-2">
             <QrCode className="w-4 h-4 text-[#FF8000]" />
-            <span className="font-bold text-white">CajaQR</span>
-            <span>— Caja de enlaces & generador de códigos QR para acceso directo</span>
+            <span className="font-bold text-white">BOX<span className="text-[#FF8000]">Qr</span></span>
+            <span>— Bóveda de enlaces & generador de códigos QR para acceso directo</span>
           </div>
           <div>
             <span>Inspirado en la ingeniería McLaren F1: Papaya Orange & Stealth Carbon</span>
