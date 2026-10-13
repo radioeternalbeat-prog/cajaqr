@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="papayaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFA033" />
+      <stop offset="100%" stop-color="#FF6600" />
+    </linearGradient>
+    <linearGradient id="darkBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#161b22" />
+      <stop offset="100%" stop-color="#090b0e" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="512" height="512" rx="112" fill="url(#darkBg)" />
+  <rect width="506" height="506" x="3" y="3" rx="109" fill="none" stroke="#FF8000" stroke-width="4" stroke-opacity="0.35" />
+
+  <!-- Inner Badge Container -->
+  <g filter="url(#shadow)">
+    <!-- Vault Box Frame -->
+    <rect x="76" y="76" width="360" height="360" rx="64" fill="url(#papayaGrad)" />
+    
+    <!-- Inner Dark Display Surface -->
+    <rect x="100" y="100" width="312" height="312" rx="46" fill="#0c0e12" />
+
+    <!-- Stylized QR Corner Targets (Top-Left) -->
+    <rect x="136" y="136" width="90" height="90" rx="20" fill="url(#papayaGrad)" />
+    <rect x="156" y="156" width="50" height="50" rx="10" fill="#0c0e12" />
+    <rect x="170" y="170" width="22" height="22" rx="5" fill="url(#papayaGrad)" />
+
+    <!-- Stylized QR Corner Targets (Top-Right) -->
+    <rect x="286" y="136" width="90" height="90" rx="20" fill="url(#papayaGrad)" />
+    <rect x="306" y="156" width="50" height="50" rx="10" fill="#0c0e12" />
+    <rect x="320" y="170" width="22" height="22" rx="5" fill="url(#papayaGrad)" />
+
+    <!-- Stylized QR Corner Targets (Bottom-Left) -->
+    <rect x="136" y="286" width="90" height="90" rx="20" fill="url(#papayaGrad)" />
+    <rect x="156" y="306" width="50" height="50" rx="10" fill="#0c0e12" />
+    <rect x="170" y="320" width="22" height="22" rx="5" fill="url(#papayaGrad)" />
+
+    <!-- Center & Dynamic Data Dots -->
+    <circle cx="256" cy="256" r="18" fill="url(#papayaGrad)" />
+    <rect x="246" y="160" width="20" height="42" rx="6" fill="#FF8000" />
+    <rect x="160" y="246" width="42" height="20" rx="6" fill="#FF8000" />
+    <rect x="310" y="246" width="42" height="20" rx="6" fill="#FF8000" />
+    <rect x="246" y="310" width="20" height="42" rx="6" fill="#FF8000" />
+
+    <rect x="286" y="286" width="38" height="38" rx="10" fill="#FF8000" />
+    <circle cx="355" cy="355" r="16" fill="url(#papayaGrad)" />
+  </g>
+</svg>

@@ -5,6 +5,7 @@ import { LinkVaultGrid } from './components/LinkVaultGrid';
 import { QRStudioModal } from './components/QRStudioModal';
 import { QRScannerModal } from './components/QRScannerModal';
 import { PrintSheetModal } from './components/PrintSheetModal';
+import { OfflineIndicator } from './components/OfflineIndicator';
 import { INITIAL_LINKS } from './utils/defaultLinks';
 import { SavedLink, QRConfig } from './types';
 import {
@@ -335,6 +336,8 @@ export default function App() {
           links={printSelectionLinks.length > 0 ? printSelectionLinks : links}
         />
       )}
+
+      <OfflineIndicator />
     </div>
   );
 }

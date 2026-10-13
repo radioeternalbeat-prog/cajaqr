@@ -1,5 +1,6 @@
 import React from 'react';
 import { QrCode, Plus, Camera, Printer, FileDown } from 'lucide-react';
+import { PWAInstallButton } from './PWAInstallButton';
 
 interface HeaderProps {
   onNewLink: () => void;
@@ -83,6 +84,7 @@ export const Header: React.FC<HeaderProps> = ({
 
         {/* Zone 3: Primary Action CTA */}
         <div className="flex items-center gap-2.5 shrink-0">
+          <PWAInstallButton />
           <button
             onClick={onExportBackup}
             title="Exportar respaldo de enlaces"
